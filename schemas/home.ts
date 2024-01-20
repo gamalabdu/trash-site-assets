@@ -4,6 +4,11 @@ export default {
     type: "document",
     fields: [
         {
+            name: 'name',
+            title: 'Name',
+            type: 'string',
+        },
+        {
             name: "homePic1",
             title: "Home Picture 1",
             type: "image",
