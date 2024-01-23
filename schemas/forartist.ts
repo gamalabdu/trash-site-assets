@@ -9,7 +9,7 @@ export default {
             type: 'string',
         },
         {
-            name: "for-artist-thumbnail",
+            name: "forArtistThumbnail",
             title: "For Artist Thumbnail",
             type: "image",
             options: {
@@ -17,7 +17,7 @@ export default {
             },
         },
         {
-            name: "for-artist-video",
+            name: "forArtistVideo",
             title: "For Artist Video",
             type: 'file',
             options: {
