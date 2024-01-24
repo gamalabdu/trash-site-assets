@@ -9,6 +9,11 @@ export default {
             type: "string"
         },
         {
+            name: "id",
+            title: "Id",
+            type: "number"
+        },
+        {
             name: "artist",
             title: "Artist",
             type: "string"
