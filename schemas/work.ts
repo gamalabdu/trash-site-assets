@@ -57,7 +57,14 @@ export default {
             name: 'canvas',
             title: 'Canvas',
             type: 'array',
-            of: [{ type: 'string' }],
+            of: [
+                {
+                    type: 'file',
+                    options: {
+                        accept: 'video/*',
+                    },
+                },
+            ],
         },
         {
             name: 'assets',
