@@ -19,8 +19,16 @@ export default {
             type: "string"
         },
         {
-            name: "music",
-            title: "Music",
+            name: "final",
+            title: "Final Song",
+            type: "file",
+            options: {
+                accept: 'audio/*',
+            },
+        },
+        {
+            name: "demo",
+            title: "Demo Song",
             type: "file",
             options: {
                 accept: 'audio/*',
