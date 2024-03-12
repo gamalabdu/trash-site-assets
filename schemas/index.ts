@@ -1,3 +1,4 @@
+import brandingPage from "./brandingPage"
 import enter from "./enter"
 import forartist from "./forartist"
 import home from "./home"
@@ -6,4 +7,4 @@ import productionPageAlbums from "./productionPageAlbums"
 import song from "./song"
 import work from "./work"
 
-export const schemaTypes = [song, work, home, enter, forartist, productionPage, productionPageAlbums]
+export const schemaTypes = [song, work, home, enter, forartist, productionPage, productionPageAlbums, brandingPage]
