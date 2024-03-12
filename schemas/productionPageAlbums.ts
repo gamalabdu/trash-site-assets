@@ -21,6 +21,11 @@ export default {
                 accept: 'image/*',
             },
         },
+        {
+            name:"link",
+            title:" Link",
+            type: 'string',
+        }
     ]
 
     
