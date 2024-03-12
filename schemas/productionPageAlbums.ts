@@ -14,8 +14,8 @@ export default {
             type: "string"
         },
         {
-            name: "final",
-            title: "Final Song",
+            name: "coverArt",
+            title: "Cover Art",
             type: "file",
             options: {
                 accept: 'image/*',
