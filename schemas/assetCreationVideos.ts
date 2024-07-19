@@ -1,6 +1,7 @@
 export default {
     name: "assetCreationVideos",
     title: "Asset Creation Videos",
+    type: "document",
     fields: [
         {
             name: "title",
