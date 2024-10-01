@@ -1,5 +1,5 @@
 export default {
-    name: "digitalPage",
+    name: "digitalPagePhotos",
     title: "Digital Page Assets",
     type: "document",
     fields: [
@@ -20,7 +20,7 @@ export default {
             options: {
                 accept: 'image/*',
             },
-        },
+        }
     ]
     
 }
