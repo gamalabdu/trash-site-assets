@@ -9,5 +9,6 @@ import work from "./work"
 import assetCreationPhotos from "./assetCreationPhotos"
 import assetCreationVideos from "./assetCreationVideos"
 import outreachAssets from "./outreachAssets"
+import digitalPage from "./digitalPage"
 
-export const schemaTypes = [song, work, home, enter, forartist, productionPage, productionPageAlbums, assetCreationPhotos, assetCreationVideos, outreachAssets]
+export const schemaTypes = [song, work, home, enter, forartist, productionPage, productionPageAlbums, assetCreationPhotos, assetCreationVideos, outreachAssets, digitalPage]
