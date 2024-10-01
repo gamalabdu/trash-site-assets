@@ -1,6 +1,6 @@
 export default {
     name: "digitalPagePhotos",
-    title: "Digital Page Assets",
+    title: "Digital Page Photos",
     type: "document",
     fields: [
         {
