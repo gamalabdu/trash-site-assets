@@ -11,6 +11,7 @@ import assetCreationVideos from "./assetCreationVideos"
 import outreachAssets from "./outreachAssets"
 import digitalPagePhotos from "./digitalPagePhotos"
 import digitalPageVideos from "./digitalPageVideos"
+import pitchPacket from "./pitchPacket"
 
 export const schemaTypes = 
 [
@@ -25,5 +26,6 @@ export const schemaTypes =
     assetCreationVideos, 
     outreachAssets, 
     digitalPagePhotos,
-    digitalPageVideos
+    digitalPageVideos,
+    pitchPacket
 ]
