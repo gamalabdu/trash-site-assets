@@ -12,6 +12,7 @@ import outreachAssets from "./outreachAssets"
 import digitalPagePhotos from "./digitalPagePhotos"
 import digitalPageVideos from "./digitalPageVideos"
 import pitchPacket from "./pitchPacket"
+import roster from "./roster"
 
 export const schemaTypes = 
 [
@@ -27,5 +28,6 @@ export const schemaTypes =
     outreachAssets, 
     digitalPagePhotos,
     digitalPageVideos,
-    pitchPacket
+    pitchPacket,
+    roster
 ]
