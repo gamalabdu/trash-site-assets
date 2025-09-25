@@ -14,7 +14,19 @@ export default {
             type: "array",
             of: [
                 {
-                    type: "string"
+                    type: "object",
+                    fields: [
+                        {
+                            name: "link",
+                            title: "Link",
+                            type: "string"
+                        },
+                        {
+                            name: "type",
+                            title: "Type",
+                            type: "string"
+                        }
+                    ]
                 }
             ]
         },
