@@ -107,14 +107,16 @@ export default {
                     }
                 },
                 {
-                    name: "spotifyLink",
-                    title: "Spotify Link",
+                    name: "spotifyEmbed",
+                    title: "Spotify Embed",
                     type: "object",
                     fields: [
                         {
-                            name: "url",
-                            title: "Spotify URL",
-                            type: "url"
+                            name: "embedCode",
+                            title: "Spotify Embed Code",
+                            type: "text",
+                            rows: 4,
+                            description: "Paste the full iframe code from Spotify"
                         }
                     ]
                 },
