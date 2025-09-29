@@ -13,6 +13,7 @@ import digitalPagePhotos from "./digitalPagePhotos"
 import digitalPageVideos from "./digitalPageVideos"
 import pitchPacket from "./pitchPacket"
 import roster from "./roster"
+import articles from "./articles"
 
 export const schemaTypes = 
 [
@@ -29,5 +30,6 @@ export const schemaTypes =
     digitalPagePhotos,
     digitalPageVideos,
     pitchPacket,
-    roster
+    roster,
+    articles
 ]
