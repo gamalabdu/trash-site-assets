@@ -109,12 +109,26 @@ export default {
                 {
                     name: "spotifyLink",
                     title: "Spotify Link",
-                    type: "url"
+                    type: "object",
+                    fields: [
+                        {
+                            name: "url",
+                            title: "Spotify URL",
+                            type: "url"
+                        }
+                    ]
                 },
                 {
                     name: "pullQuote",
                     title: "Pull Quote",
-                    type: "text"
+                    type: "object",
+                    fields: [
+                        {
+                            name: "text",
+                            title: "Quote Text",
+                            type: "text"
+                        }
+                    ]
                 }
             ]
         },
