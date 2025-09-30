@@ -32,6 +32,21 @@ export default {
             ]
         },
         {
+            name: "articleType",
+            title: "Article Type",
+            type: "array",
+            of: [{ type: "string" }],
+            options: {
+                list: [
+                    { title: "Featured", value: "featured" },
+                    { title: "New Release", value: "new-release" },
+                    { title: "Review", value: "review" },
+                    { title: "Interview", value: "interview" }
+                ],
+                layout: "checkboxes"
+            }
+        },
+        {
             name: "categoryTags",
             title: "Category Tags",
             type: "array",
