@@ -146,6 +146,54 @@ export default {
                             type: "text"
                         }
                     ]
+                },
+                {
+                    name: "photoBlock",
+                    title: "Photo Block",
+                    type: "object",
+                    fields: [
+                        {
+                            name: "photos",
+                            title: "Photos",
+                            type: "array",
+                            of: [
+                                {
+                                    type: "image",
+                                    options: {
+                                        hotspot: true
+                                    },
+                                    fields: [
+                                        {
+                                            name: "alt",
+                                            title: "Alt Text",
+                                            type: "string",
+                                            description: "Important for SEO and accessibility"
+                                        },
+                                        {
+                                            name: "caption",
+                                            title: "Caption",
+                                            type: "string"
+                                        }
+                                    ]
+                                }
+                            ],
+                            validation: (Rule: any) => Rule.required().min(1)
+                        },
+                        {
+                            name: "layout",
+                            title: "Layout",
+                            type: "string",
+                            options: {
+                                list: [
+                                    { title: "Single", value: "single" },
+                                    { title: "Side by Side", value: "sidebyside" },
+                                    { title: "3 Column", value: "3column" }
+                                ],
+                                layout: "radio"
+                            },
+                            validation: (Rule: any) => Rule.required()
+                        }
+                    ]
                 }
             ]
         },
