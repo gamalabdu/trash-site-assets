@@ -4,6 +4,7 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 import { vercelDeployTool } from 'sanity-plugin-vercel-deploy'
 
+
 export default defineConfig({
   name: 'default',
   title: 'trash-site-assets',

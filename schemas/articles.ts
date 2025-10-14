@@ -67,10 +67,26 @@ export default {
         options: { hotspot: true }
       },
       {
-        name: "authorSocialLinks",
-        title: "Author Social Links",
+        name: "authorSocials",
+        title: "Author Social Media Links",
         type: "array",
-        of: [{ type: "url" }]
+        of: [
+          {
+            type: "object",
+            fields: [
+              {
+                name: "link",
+                title: "Link",
+                type: "url"
+              },
+              {
+                name: "type",
+                title: "Platform",
+                type: "string"
+              }
+            ]
+          }
+        ]
       },
       {
         name: "publishedDate",
@@ -78,23 +94,35 @@ export default {
         type: "datetime",
         options: { dateFormat: "MMMM DD, YYYY" }
       },
-  
-      /**
-       *  ✅ Single Tiptap JSON field replaces blocks
-       */
       {
         name: "contentJson",
         title: "Article Content",
-        type: "json",
+        type: "text",
         validation: (Rule: any) => Rule.required(),
-        description: "Tiptap JSON document representing the full article body."
+        description: "Tiptap JSON document as a string. Store the JSON.stringify() output here.",
+        rows: 10
       },
-  
       {
-        name: "externalLinks",
-        title: "External Links",
+        name: "artistSocials",
+        title: "Artist Social Media Links",
         type: "array",
-        of: [{ type: "url" }]
+        of: [
+          {
+            type: "object",
+            fields: [
+              {
+                name: "link",
+                title: "Link",
+                type: "url"
+              },
+              {
+                name: "type",
+                title: "Platform",
+                type: "string"
+              }
+            ]
+          }
+        ]
       },
       {
         name: "tags",
